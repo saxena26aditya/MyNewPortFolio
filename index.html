@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo"><span id="nameAd">Aditya Saxena</span></a>
+        <i class='bx bx-menu' id="menu_icon"></i>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#Interests">Interests</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home_content">
+            <h2>Hello,<br> Myself Aditya Saxena</h2>
+            <p>
+                I am born and brought up in Bhopal,Madhya Pradesh. <br> I am Currently pursuing Btech in Computer
+                Science Engineering From Maulana Azad National Institute of Technology,Bhopal. <br> I have done my basic
+                schooling from St. Paul School, Bhopal. I am a Strong-willed Person and I keep on learning from My
+                mistakes.
+            </p>
+            <div class="home-icons">
+                <a href="https://www.instagram.com/_.aditya.saxena._/"><i class='bx bxl-instagram'></i></a>
+                <a href="mailto:saxena26aditya@gmail.com"><i class='bx bx-envelope'></i></a>
+                <a href="https://www.linkedin.com/in/aditya-saxena-b1ba8b24a"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a href="Aditya_Saxena_Resume (8).pdf" class="CV" download="Aditya Saxena">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="PhotoAd.jpeg" alt="">
+        </div>
+    </section>
+
+
+
+
+    <section class="about" id="about">
+        <div class="about_content">
+            <h2>Schooling</h2>
+            <img src="st-paul-house-bhopal.jpg" alt="">
+            <p>I have done my Basic Schooling from St. Paul School, Bhopal.I Scored 92.6% and 98.2% in Class 10th
+                and 12th CBSE Board Respectively.I then prepared for JEE Mains and Advanced and Cleared Both with
+                Decent ranks.</p>
+        </div>
+        <div class="about_content">
+            <h2>BTech</h2>
+            <img src="manit_Image.jpeg" alt="">
+            <p>I am Currently pursuing my Btech degree in Computer Science Engineering from Manit Bhopal.I have
+                learnt a lot in my college with help of my great friends and helpful Seniors.</p>
+        </div>
+    
+
+    </section>
+
+
+
+    <section class="skills" id="skills">
+        <div class="ProgrammingLanguages">
+            <h1>Programming Languages</h1>
+            <img src="c.png" alt="C">
+            <img src="c++.png" alt="C++">
+            <br>
+            <img src="htmlcss.png" alt="HTML and CSS">
+            <img src="js.png" alt="JavaScript">
+            <br>
+        </div>
+
+        <div class="cpProfiles">
+            <h1>Data Strutures and Algorithms<br> and Competitive Programming</h1>
+            <br>
+            <h3>These are my Coding Profiles at various Platforms</h3>
+            <div class = cpProfilesMore>
+                <h3><a href="https://www.codechef.com/users/aditya0610">
+                    <img src="codechef1.jpg" alt="Codechef"></a>
+                    <br>CodeChef</h3>
+                <h3><a href="https://codeforces.com/profile/aditya0610">
+                    <img src="codeforces.png" alt="Codeforces"></a>
+                    <br>Codeforces</h3>
+                <h3><a href="https://leetcode.com/aditya0610/">
+                    <img src="LeetCode.png" alt="LeetCode"></a>
+                    <br>LeetCode</h3>
+            </div>
+        </div>  
+    </section>
+
+
+    <section class="Interests" id="Interests">
+        <div class="myInterests">
+            <div class="poems">
+                <h2>Writing Poems</h2>
+                <br><img src="poetry.jpg" alt="">
+                <h3>It has been my favourite <br>way to express my feelings</h3>
+            </div>
+            <div class="Cricket">
+                <h2>Cricket </h2>
+                <br><img src="cricket.jpg" alt="">
+                <h3>Die hard fan of Ms Dhoni <br>and Virat Kohli.<br>I have hardly missed any cricket match<br>Since WorldCup 2011 Final</h3>
+            </div>
+            <div class="travel">
+                <h2>Travelling</h2><br><img src="road.jpeg" alt="">
+                <h3>I have travelled to many places<br> like Haridwar,Neelkanth,Vrindavan etc</h3>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="Contact" id="contact">
+        <div class="contactForm">
+            <form>
+                <h3>Do Contact Me</h3>
+                <input type="text" id="formname" placeholder="Your Name" required>
+                <input type="email" id="formEmail" placeholder="Your Email" required>
+                <input type="text" id="formPhone" placeholder="Phone No." required>
+                <textarea id="Message" rows="5" placeholder="Your Message"></textarea>
+                <button type="submit">SEND</button>
+            </form>
+        </div>
+    </section>
+
+
+
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function SendEmail(){
+            Email.send
+        }
+    </script>
+</body>
+
+</html>
