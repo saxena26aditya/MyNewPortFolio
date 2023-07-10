@@ -37,6 +37,7 @@ body {
     background: var(--bg-color);
     padding : 2rem 9%;
     display : flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items : center;
     z-index: 100;
@@ -87,7 +88,7 @@ section{
     color:var(--text-color);
 }
 .home-img img{
-    width:25vw;
+    width: 250px;
     border-radius: 50%;
 }
 .home_content .home-icons a{
@@ -130,6 +131,7 @@ section{
     text-align: center;
     text-decoration: none;
     display:flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items:center;
     gap:2rem;
@@ -145,15 +147,16 @@ section{
     border-radius: 4rem;
 }
 .about_content img{
-    width:30vw;
-    height:40vh;
-    border-radius :4rem;
-    padding-bottom: 1rem;
+    width:300px;
+    height:200px;
+    border-radius : 15px;
+    padding-bottom: 5px;
 }
 .skills{
     text-align: center;
     text-decoration: none;
     display:flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items:center;
     gap:2rem;
@@ -167,6 +170,7 @@ section{
 
 .ProgrammingLanguages{
     flex: 1 1 30rem;
+    flex-wrap: wrap;
     background: var(--bg-color);
     border-radius: 4rem;
 }
@@ -180,6 +184,7 @@ section{
 
 .cpProfiles{
     flex: 1 1 30rem;
+    flex-wrap: wrap;
     background: var(--bg-color);
     border-radius: 4rem;
 }
@@ -198,6 +203,7 @@ section{
     text-align: center;
     text-decoration: none;
     display:flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items:center;
     gap:2rem;
@@ -222,6 +228,7 @@ section{
     text-align: center;
     text-decoration: none;
     display:flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items:center;
     gap:2rem;
